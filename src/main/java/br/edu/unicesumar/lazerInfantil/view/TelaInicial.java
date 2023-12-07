@@ -27,8 +27,6 @@ public class TelaInicial extends javax.swing.JFrame {
         btnCadastrar = new javax.swing.JButton();
         filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 110), new java.awt.Dimension(0, 32767));
         filler4 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(130, 0), new java.awt.Dimension(32767, 0));
-        panelRodape = new javax.swing.JPanel();
-        labelHorario = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Lazer Infantil - Shopping");
@@ -65,27 +63,6 @@ public class TelaInicial extends javax.swing.JFrame {
 
         getContentPane().add(panelPrincipal, java.awt.BorderLayout.CENTER);
 
-        labelHorario.setText("horario");
-
-        javax.swing.GroupLayout panelRodapeLayout = new javax.swing.GroupLayout(panelRodape);
-        panelRodape.setLayout(panelRodapeLayout);
-        panelRodapeLayout.setHorizontalGroup(
-            panelRodapeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelRodapeLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(labelHorario)
-                .addContainerGap(456, Short.MAX_VALUE))
-        );
-        panelRodapeLayout.setVerticalGroup(
-            panelRodapeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRodapeLayout.createSequentialGroup()
-                .addContainerGap(13, Short.MAX_VALUE)
-                .addComponent(labelHorario)
-                .addContainerGap())
-        );
-
-        getContentPane().add(panelRodape, java.awt.BorderLayout.SOUTH);
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
@@ -93,14 +70,7 @@ public class TelaInicial extends javax.swing.JFrame {
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
         new TelaCadastroResponsavel();
     }//GEN-LAST:event_btnCadastrarActionPerformed
-
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TelaInicial().setVisible(true);
-            }
-        });
-    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCadastrar;
@@ -108,10 +78,8 @@ public class TelaInicial extends javax.swing.JFrame {
     private javax.swing.Box.Filler filler2;
     private javax.swing.Box.Filler filler3;
     private javax.swing.Box.Filler filler4;
-    private javax.swing.JLabel labelHorario;
     private javax.swing.JLabel labelTitulo;
     private javax.swing.JPanel panelPrincipal;
-    private javax.swing.JPanel panelRodape;
     private javax.swing.JPanel panelTitulo;
     // End of variables declaration//GEN-END:variables
 }

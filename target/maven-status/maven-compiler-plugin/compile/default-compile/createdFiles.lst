@@ -8,7 +8,6 @@ br\edu\unicesumar\lazerInfantil\view\TelaInicial.class
 br\edu\unicesumar\lazerInfantil\core\services\EstadiaService.class
 br\edu\unicesumar\lazerInfantil\view\TelaInicial$1.class
 br\edu\unicesumar\lazerInfantil\core\dao\CriancaDAO.class
-br\edu\unicesumar\lazerInfantil\view\TelaInicial$2.class
 br\edu\unicesumar\lazerInfantil\core\controllers\CriancaController.class
 br\edu\unicesumar\lazerInfantil\core\services\ResponsavelService.class
 br\edu\unicesumar\lazerInfantil\core\entity\Estadia.class
