@@ -1,5 +1,13 @@
 # lazer-infantil
 
+<div>
+  <img src="https://imgur.com/jpq3pmn.png" height=250px width=300px/>
+  <img src="https://imgur.com/LGEkup7.png" height=250px width=300px/>
+  <img src="https://i.imgur.com/IE7lVLj.png" height=250px width=300px/>
+  <img src="https://imgur.com/Ed0lqXk.png" height=250px width=300px/>
+  <img src="https://imgur.com/bnLnuPC.png" height=250px width=300px/>
+  
+</div>
 Projeto acadêmico com a proposta de desenvolver um sistema de gerenciamento para uma área infantil de um shopping, aonde basicamente é cobrado um valor encima conforme o tempo no qual a criança permaneceu. 
 O sistema realiza um cadastro de usuário, cadastrando dados tanto do responsável quanto da criança, gerando no final do processo um relatório da estadia, com os dados do cadastro e o valor final a ser pago.
 
